@@ -1,5 +1,10 @@
 fn main() {
-    println!("{}", sieve(600851475143).last().unwrap());
+    println!(
+        "{}",
+        sieve(600851475143)
+            .last() // The list is sorted from lowest to highest, so the last element is the largest.
+            .unwrap()
+    );
 }
 
 /// Returns all the prime factors of `n`.
