@@ -8,6 +8,8 @@ fn sieve(n: u64) -> Vec<u64> {
     let mut primes = vec![];
     let mut n = n;
 
+    // We only need to check up to `sqrt_n` numbers because the largest factor
+    // of `n` is `sqrt_n` or less.
     for i in 2..=sqrt_n {
         if n % i == 0 {
             primes.push(i);
