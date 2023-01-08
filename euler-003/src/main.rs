@@ -1,14 +1,16 @@
+use std::vec::IntoIter;
+
 fn main() {
     println!(
         "{}",
-        sieve(600851475143)
+        factors(600851475143)
             .last() // The list is sorted from lowest to highest, so the last element is the largest.
             .unwrap()
     );
 }
 
-/// Returns all the prime factors of `n`.
-fn sieve(n: u64) -> Vec<u64> {
+/// Returns all the prime factors of `n`. These are sorted from lowest to highest.
+fn factors(n: u64) -> IntoIter<u64> {
     let sqrt_n = (n as f64).sqrt() as u64;
     let mut primes = vec![];
     let mut n = n;
@@ -22,5 +24,5 @@ fn sieve(n: u64) -> Vec<u64> {
         }
     }
 
-    primes
+    primes.into_iter()
 }

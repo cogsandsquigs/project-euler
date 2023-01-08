@@ -1,3 +1,11 @@
 [workspace]
 
-	members = ["euler-001", "euler-002", "euler-003"]
+	members = [
+		"euler-001",
+		"euler-002",
+		"euler-003",
+		"euler-004",
+		"euler-005",
+		"euler-006",
+		"euler-utils",
+	]
