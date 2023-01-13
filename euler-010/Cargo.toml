@@ -8,3 +8,4 @@
 	path = "src/main.rs"
 
 [dependencies]
+	euler-utils = { path = "../euler-utils" }
