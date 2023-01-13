@@ -8,7 +8,7 @@ fn main() {
         .max()
         .unwrap();
 
-    println!("{}", largest);
+    println!("{largest}");
 }
 
 /// Returns `true` if `n` is a palindromic number, `false` otherwise.

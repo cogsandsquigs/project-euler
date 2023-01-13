@@ -6,7 +6,7 @@ fn main() {
         .filter(|&x| x % 2 == 0)
         .sum();
 
-    println!("{}", sum);
+    println!("{sum}");
 }
 
 /// Infinite iterator of Fibonacci numbers.

@@ -1,1 +1,1 @@
-pub mod primes;
+pub mod number_theory;

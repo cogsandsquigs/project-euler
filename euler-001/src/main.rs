@@ -7,5 +7,5 @@ fn main() {
         }
     }
 
-    println!("{}", sum);
+    println!("{sum}");
 }
