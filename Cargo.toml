@@ -1,6 +1,10 @@
 [workspace]
 
 	members = [
+		# Utils
+		"euler-utils",
+
+		# Problems
 		"euler-001",
 		"euler-002",
 		"euler-003",
@@ -10,5 +14,5 @@
 		"euler-007",
 		"euler-008",
 		"euler-009",
-		"euler-utils",
+		"euler-010",
 	]

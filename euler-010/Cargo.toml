@@ -1,0 +1,10 @@
+[package]
+	edition = "2021"
+	name    = "euler-010"
+	version = "0.0.0"
+
+[[bin]]
+	name = "10"
+	path = "src/main.rs"
+
+[dependencies]
